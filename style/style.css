@@ -1,0 +1,24 @@
+:root{
+    --mc-bg-nav : #2C3E50;
+    --mc-bg-jumbo: #1ABC9C;
+    --mc-bg-footer: #3A546D;
+}
+header{
+    background-color: var(--mc-bg-nav);
+}
+main .mc-jumbo,
+main .mc-about{
+    background-color: var(--mc-bg-jumbo);
+}
+.row > div{
+    border: 1px solid orange;
+}
+.row > div > div{
+    border: 1px solid black;
+}
+footer{
+    background-color: var(--mc-bg-footer);
+}
+footer .mc-footer-bottom{
+    background-color:  var(--mc-bg-nav);
+}
