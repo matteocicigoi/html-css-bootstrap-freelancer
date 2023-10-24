@@ -1,2 +1,5 @@
 @import '_partials/variables.css';
 @import '_partials/main.css';
+
+/* Components */
+@import '_partials/components/mc-star.css';

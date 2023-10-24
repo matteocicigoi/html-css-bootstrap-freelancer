@@ -4,13 +4,13 @@ header{
 main .mc-jumbo,
 main .mc-about{
     background-color: var(--mc-bg-jumbo);
-}
+}/*
 .row > div{
     border: 1px solid orange;
 }
 .row > div > div{
     border: 1px solid black;
-}
+}*/
 footer{
     background-color: var(--mc-bg-footer);
 }

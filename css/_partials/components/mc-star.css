@@ -1,0 +1,25 @@
+.mc-star {
+    --mc-font-size: 1.875rem;
+    font-size: var(--mc-font-size);
+    position: relative;
+}
+.mc-star::before,
+.mc-star::after{
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    background-color: currentColor;
+    margin: -2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+}
+.mc-star::before{
+    left: calc(50% - var(--mc-font-size));
+    transform: translateX(-100%);
+}
+.mc-star::after{
+    right: calc(50% - var(--mc-font-size));
+    transform: translateX(100%);
+}
