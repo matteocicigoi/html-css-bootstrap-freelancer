@@ -1,16 +1,19 @@
 header{
     background-color: var(--mc-bg-nav);
 }
-main .mc-jumbo,
-main .mc-about{
-    background-color: var(--mc-bg-jumbo);
-}/*
-.row > div{
-    border: 1px solid orange;
+main{
+    color: var(--mc-text);
 }
-.row > div > div{
-    border: 1px solid black;
-}*/
+main .mc-jumbo,
+main .mc-about,
+main .mc-btn-send{
+    background-color: var(--mc-bg-jumbo);
+    color: white;
+}
+main .mc-btn-send:hover{
+    background-color: var(--mc-bg-nav);
+    color: white;
+}
 footer{
     background-color: var(--mc-bg-footer);
 }
