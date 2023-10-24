@@ -8,6 +8,7 @@
     content: '';
     display: inline-block;
     width: 15%;
+    max-width: 100px;
     height: 4px;
     background-color: currentColor;
     margin: -2px;
