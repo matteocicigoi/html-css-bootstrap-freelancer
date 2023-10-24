@@ -1,0 +1,10 @@
+.mc-social i{
+    display: inline-block;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3.125rem;
+    margin: 0 4px;
+}

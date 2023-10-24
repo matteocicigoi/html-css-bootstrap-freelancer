@@ -17,6 +17,9 @@ main .mc-btn-send:hover{
 footer{
     background-color: var(--mc-bg-footer);
 }
+footer a{
+    color: var(--mc-bg-jumbo);;
+}
 footer .mc-footer-bottom{
     background-color:  var(--mc-bg-nav);
 }
